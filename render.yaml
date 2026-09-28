@@ -1,7 +1,7 @@
 services:
   - type: web
     name: whatsapp-server
-    env: docker
+    env: image
     plan: free
     image:
       url: wppconnect/server:latest
