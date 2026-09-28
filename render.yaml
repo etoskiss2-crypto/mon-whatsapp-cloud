@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: whatsapp-server
+    env: docker
+    plan: free
+    image:
+      url: wppconnect/server:latest
+    envVars:
+      - key: PORT
+        value: 21465
+      - key: SECRET_KEY
+        value: MaCleSecrete2024
+      - key: WEBHOOK_URL
+        value: https://whatsapp-server.onrender.com
