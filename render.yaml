@@ -4,7 +4,7 @@ services:
     env: image
     plan: free
     image:
-      url: evoapicloud/evolution-api:latest
+      url: evoapicloud/evolution-api:lite
     envVars:
       - key: PORT
         value: 8080
